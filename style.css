@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/alliance-no2');
+
+
+img {
+    position: absolute;
+    top: 32px;
+    left: 675px;
+
+    width: 48px;
+    height: 48px;
+}
+
+body {
+    background: rgb(13, 17, 23);
+    height: 1000px;
+    width: 1000px;
+    font-family: 'Alliance No.2', sans-serif;
+    font-weight: lighter;
+}
+
+.f1 {
+    position: absolute;
+    background: rgb(22, 27, 34);
+    height: 217px;
+    width: 308px;
+    border-radius: 5px;
+    top: 155px;
+    left: 545px;
+    border: 1px solid rgba(29, 34, 41);
+    
+}
+
+.f2 {
+    position: absolute;
+    background: rgb(13, 17, 23);
+    height: 50px;
+    width: 308px;
+    border-radius: 5px;
+    top: 390px;
+    left: 545px;
+    border: 1px solid rgb(48, 54, 61);
+}
+
+.new {
+    position: absolute;
+    top: 408px;
+    left: 590px;
+
+    font-size: 14px;
+    color: white;
+
+}
+
+.account {
+    position: absolute;
+    top: 408px;
+    left: 692px;
+
+    font-size: 14px;
+    color: rgb(108, 163, 221);
+   
+
+}
+
+.login {
+    position: absolute;
+    top: 180px;
+    left: 562px;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+
+
+}
+/* textbox */
+.nom {
+    position: absolute;
+    top: 205px;
+    left: 562px;
+    border-radius: 4px;
+
+    height: 28px;
+    width: 270px;
+
+    background-color: rgb(13, 17, 23);
+    border: 1px solid rgb(48, 54, 61);
+    color: white;
+
+    text-align: 5px;
+}
+
+.login2 {
+    position: absolute;
+    top: 255px;
+    left: 562px;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    
+}
+
+/* textbox */
+.mdp {
+    position: absolute;
+    top: 280px;
+    left: 562px;
+    border-radius: 4px;
+
+    height: 28px;
+    width: 270px;
+
+    background-color: rgb(13, 17, 23);
+    border: 1px solid rgb(48, 54, 61);
+    color: rgb(255, 255, 255);
+
+    text-align: 5px;
+    
+}
+
+input[type=text]:focus {
+    outline: 2px solid #3ca6ff;
+  }
+
+
+.submit {
+    position: absolute;
+    top: 328px;
+    left: 561px;
+
+    width: 275px;
+    height: 31px;
+
+    font-size: 15px;    
+    border-radius:6px ;
+    background-color: rgb(35, 134, 54);
+    color: white;
+    border: none;
+}
+
+.submit:hover {
+    background-color: rgb(46, 160, 67);
+}
+
+.signin {
+
+    top: 115px;
+    left: 615px;
+
+    position: absolute;
+    font-size: 22px;
+    color: white;
+}
+
+.pwd { 
+    position: absolute;
+    font-size: 12px;
+    color: #3ca6ff;
+    
+    top: 254px;
+    left: 741px;
+
+}   
+
+/* FOOTER */
+/* ~47px différence */
+
+.terms {
+    position: absolute;
+    color: #3ca6ff ;
+
+    font-size: 12px;
+    top: 529px;
+    left: 575px;
+}
+
+.privacy {
+    position: absolute;
+    color: #3ca6ff ;
+
+    font-size: 12px;
+    top: 529px;
+    left: 622px;
+}
+
+.security {
+    position: absolute;
+    color: #3ca6ff ;
+    font-size: 12px;
+    top: 529px;
+    left: 678px;
+}
+
+.contactgithub {
+    position: absolute;
+    color: #a0a0a0 ;
+    font-size: 12px;
+    top: 529px;
+    left: 738px;
+
+}
